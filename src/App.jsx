@@ -1,10 +1,13 @@
-import Message from "./Message.jsx";
+import ArticleCard from "./ArticleCard.jsx";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Message />
+      <main className="card-container">
+        <ArticleCard />
+        <ArticleCard />
+      </main>
     </>
   );
 }
