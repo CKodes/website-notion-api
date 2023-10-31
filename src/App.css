@@ -1,6 +1,33 @@
 #root {
-  max-width: 1280px;
+  max-width: 1536px;
+  height: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
+  background: #1d3557;
   text-align: center;
+}
+
+.nav {
+  background: #f1faee;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-nav {
+  width: 30%;
+  background: #457b9d;
+}
+
+.center {
+  width: 100%;
+  background: #a8dadc;
+}
+
+.right-nav {
+  width: 30%;
+  background: #457b9d;
 }
