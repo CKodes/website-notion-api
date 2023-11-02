@@ -14,6 +14,23 @@ span {
   align-items: center;
 }
 
+h1 {
+  font-size: var(--h1-heading);
+  font-family: var(--header-font);
+}
+h2 {
+  font-size: var(--h2-heading);
+  font-family: var(--header-font);
+}
+h3 {
+  font-size: var(--h3-heading);
+  font-family: var(--header-font);
+}
+
+p {
+  font-family: var(--non-header-font);
+}
+
 /* Flexbox */
 .flex-column {
   display: flex;
@@ -38,6 +55,10 @@ span {
   margin: 0;
 }
 
+.m-1rem {
+  margin: 1rem;
+}
+
 .p-1rem {
   padding: 1rem;
 }
@@ -60,5 +81,4 @@ span {
 .center {
   width: 100%;
   background: #a8dadc;
-  margin: 1rem;
 }
