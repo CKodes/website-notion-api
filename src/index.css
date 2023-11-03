@@ -1,7 +1,7 @@
 :root {
   --h1-heading: 3em;
-  --h2-heading: 1.7em;
-  --h3-heading: 1.2em;
+  --h2-heading: 2em;
+  --h3-heading: 1.7em;
   --header-font: "Viga", serif;
   --non-header-font: "Open Sans" sans-serif;
 }
