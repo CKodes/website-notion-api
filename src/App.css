@@ -82,3 +82,26 @@ p {
   width: 100%;
   background: #a8dadc;
 }
+
+/* GridArticlePage styles */
+.grid-main {
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+}
+
+.grid-center {
+  grid-column: 2;
+  background: #a8dadc;
+}
+
+.grid-left {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  background: #457b9d;
+  color: white;
+}
+
+.grid-right {
+  background: #457b9d;
+  color: white;
+}
