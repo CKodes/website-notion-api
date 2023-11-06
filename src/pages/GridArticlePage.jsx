@@ -5,10 +5,10 @@ function GridArticlePage() {
   return (
     <>
       <main className="grid-main">
-        <div className="grid-center m-05rem">
-          <article>
+        <div className="grid-center m-3">
+          <article className="m-3">
             <ArticleDetails />
-            <section className="p-1rem" aria-label="article content">
+            <section className="" aria-label="article content">
               <p>
                 You're a very talented young man, with your own clever thoughts
                 and ideas. Do you need a manager? Remind me to thank John for a
@@ -108,10 +108,10 @@ function GridArticlePage() {
             </section>
           </article>
         </div>
-        <div className="grid-left m-05rem">
+        <div className="grid-left m-3">
           <LeftSideNavbar />
         </div>
-        <div className="grid-right m-05rem">
+        <div className="m-3">
           <RightSideNavbar />
         </div>
       </main>
