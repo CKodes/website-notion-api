@@ -46,3 +46,33 @@ p {
   font-size: 1rem;
   font-weight: 400;
 }
+
+/* ArticleCard */
+
+.article-author-date {
+  font-family: var(--non-header-font);
+  font-style: italic;
+}
+.article-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1500px;
+  margin: 1.75rem;
+  gap: 1.75rem;
+}
+.article-card {
+  display: grid;
+  flex: 0 1 400px;
+}
+.article-summary {
+  border-left: 4px solid rgba(0, 0, 0, 0.8);
+  font-family: var(--non-header-font);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.article-title {
+  font-size: 2em;
+}
