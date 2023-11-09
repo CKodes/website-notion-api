@@ -1,4 +1,5 @@
 import { Col } from "@govtechsg/sgds-react";
+import ArticleTagItems from "./ArticleTagItems";
 
 import CalendarIcon from "../assets/calendar.svg";
 import NotesIcon from "../assets/notes.svg";
@@ -35,9 +36,9 @@ function ArticleDetails() {
             <div>5 Minutes</div>
           </div>
           <div className="d-flex flex-row gap-3">
-            <span className="tag-items px-2">git commits</span>
-            <span className="tag-items px-2">react</span>
-            <span className="tag-items px-2">typescript</span>
+            <ArticleTagItems />
+            <ArticleTagItems />
+            <ArticleTagItems />
           </div>
         </div>
       </section>
